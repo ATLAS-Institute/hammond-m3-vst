@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler pluginVersion="1">
+  <ui width="700" height="375" bgImage = "Images/High_resolution_wallpaper_background_ID_77702096178.jpg" bgMode="center">
+    <tab name="main">
+      <labeled-knob x="0" y="30" width = "50"  height = "200" label="Octave 1" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0.5" style="custom_skin_vertical_drag" customSkinImage = "Images/Draw_Bar_light_VII.png" customSkinNumFrames="90" customSkinImageOrientation="vertical" mouseDragSensitivity="100" >
+        <binding type="amp" level="group" position="0" parameter="AMP_VOLUME" translation="linear" translationOutputMin="1" translationOutputMax="0" />
+      </labeled-knob>
+      <labeled-knob x="50" y="30" width = "50"  height = "200" label="Octave 2" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0.5" style="custom_skin_vertical_drag" customSkinImage = "Images/Draw_Bar_light_VII.png" customSkinNumFrames="90" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="1" parameter="AMP_VOLUME" translation="linear" translationOutputMin="1" translationOutputMax="0"  />
+      </labeled-knob>
+      <labeled-knob x="100" y="30" width = "50" height = "200"  label="Fifth 1" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0.5" style="custom_skin_vertical_drag" customSkinImage = "Images/Draw_Bar_light_VII.png" customSkinNumFrames="90" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="2" parameter="AMP_VOLUME" translation="linear" translationOutputMin="1" translationOutputMax="0"  />
+      </labeled-knob>
+      <labeled-knob x="150" y="30" width = "50" height = "200"  label="Octave 3" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0.5" style="custom_skin_vertical_drag" customSkinImage = "Images/Draw_Bar_light_VII.png" customSkinNumFrames="90" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="3" parameter="AMP_VOLUME" translation="linear" translationOutputMin="1" translationOutputMax="0"  />
+      </labeled-knob>
+      <labeled-knob x="200" y="30" width = "50" height = "200"  label="Fifth 2" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0.5" style="custom_skin_vertical_drag" customSkinImage = "Images/Draw_Bar_light_VII.png" customSkinNumFrames="90" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="4" parameter="AMP_VOLUME" translation="linear" translationOutputMin="1" translationOutputMax="0"  />
+      </labeled-knob>
+      <labeled-knob x="250" y="30" width = "50" height = "200"  label="Octave 4" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0.5" style="custom_skin_vertical_drag" customSkinImage = "Images/Draw_Bar_light_VII.png" customSkinNumFrames="90" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="5" parameter="AMP_VOLUME" translation="linear" translationOutputMin="1" translationOutputMax="0"  />
+      </labeled-knob>
+      <labeled-knob x="300" y="30" width = "50" height = "200"  label="Third" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0.5" style="custom_skin_vertical_drag" customSkinImage = "Images/Draw_Bar_light_VII.png" customSkinNumFrames="90" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="6" parameter="AMP_VOLUME" translation="linear" translationOutputMin="1" translationOutputMax="0"  />
+      </labeled-knob>
+      <labeled-knob x="350" y="30" width = "50" height = "200"  label="Fifth 3" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0.5" style="custom_skin_vertical_drag" customSkinImage = "Images/Draw_Bar_light_VII.png" customSkinNumFrames="90" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="7" parameter="AMP_VOLUME" translation="linear" translationOutputMin="1" translationOutputMax="0"  />
+      </labeled-knob>
+      <labeled-knob x="400" y="30" width = "50" height = "200"  label="Octave 5" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0.5" style="custom_skin_vertical_drag" customSkinImage = "Images/Draw_Bar_light_VII.png" customSkinNumFrames="90" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="8" parameter="AMP_VOLUME" translation="linear" translationOutputMin="1" translationOutputMax="0"  />
+      </labeled-knob>
+      <labeled-knob x="600" y="30" width="90" height = "90" textSize="16" textColor="AA000000" 
+                    trackForegroundColor="CC000000" trackBackgroundColor="66999999" 
+                    label="Chorus" type="float" minValue="0.0" maxValue="1" value="0" 
+                    style="custom_skin_vertical_drag" customSkinImage = "Images/!_MFS_-_EMI_-_001_-_90px.png" 
+                    customSkinNumFrames="31" customSkinImageOrientation="vertical" mouseDragSensitivity="200">
+        <binding type="effect" level="instrument" position="0" parameter="FX_MIX" />
+      </labeled-knob>
+      <labeled-knob x="460" y="100" label="Mix" width = "90" height = "90" type="float" minValue="0" maxValue="1" value="0" textColor="FF000000" textSize="16"
+                    style="custom_skin_vertical_drag" customSkinImage = "Images/!_MFS_-_EMI_-_001_-_90px.png" 
+                    customSkinNumFrames="31" customSkinImageOrientation="vertical" mouseDragSensitivity="200">
+                <binding type="effect" level="instrument" position="1" parameter="FX_MIX"/>
+      </labeled-knob>
+            <label text="Space" x="450" y="40" width="120" height="30" textColor="FF000000" textSize="16"/>
+            <menu x="450" y="70"  width="120" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+                <option name="Sound Lab">
+                    <binding type="effect" level="instrument" position="1" parameter="FX_IR_FILE" translation="fixed_value" translationValue="Samples/Sound_Lab.wav" />
+                </option>
+                <option name="Stairwell">
+                    <binding type="effect" level="instrument" position="1" parameter="FX_IR_FILE" translation="fixed_value" translationValue="Samples/Stairwell.wav" />
+                </option>
+                <option name="Bathroom">
+                    <binding type="effect" level="instrument" position="1" parameter="FX_IR_FILE" translation="fixed_value" translationValue="Samples/Bathroom.wav" />
+                </option>
+                <option name="Parking Garage">
+                    <binding type="effect" level="instrument" position="1" parameter="FX_IR_FILE" translation="fixed_value" translationValue="Samples/Parking_Garage.wav" />
+                </option>
+                <option name="Bag">
+                    <binding type="effect" level="instrument" position="1" parameter="FX_IR_FILE" translation="fixed_value" translationValue="Samples/Bag.wav" />
+                </option>
+                <option name="Guitar">
+                    <binding type="effect" level="instrument" position="1" parameter="FX_IR_FILE" translation="fixed_value" translationValue="Samples/Guitar.wav" />
+                </option>
+                <option name="Blinds">
+                    <binding type="effect" level="instrument" position="1" parameter="FX_IR_FILE" translation="fixed_value" translationValue="Samples/Blinds.wav" />
+                </option>
+                <option name="Drums">
+                    <binding type="effect" level="instrument" position="1" parameter="FX_IR_FILE" translation="fixed_value" translationValue="Samples/Drums.wav" />
+                </option>
+                <option name="Taco">
+                    <binding type="effect" level="instrument" position="1" parameter="FX_IR_FILE" translation="fixed_value" translationValue="Samples/Drums.wav" />
+                </option>
+            </menu>
+    </tab>
+  </ui>
+  <groups attack = "0" release = "0.03">
+    <group name="Octave 1">
+      <sample loopStart = "500" loopEnd = "20084" loNote="60" hiNote="107" rootNote="89" path="Samples/F5_Normal.wav" length="805888"/>
+    </group>
+    <group name="Octave 2" groupTuning = "12">
+      <sample loopStart = "500" loopEnd = "20084" loNote="60" hiNote="107" rootNote="89" path="Samples/F5_Normal.wav" length="805888"/>
+    </group>
+    <group name="Fifth" groupTuning = "19">
+      <sample loopStart = "500" loopEnd = "20084" loNote="60" hiNote="107" rootNote="89" path="Samples/F5_Normal.wav" length="805888"/>
+    </group>
+    <group name="Octave 3" groupTuning = "24">
+      <sample loopStart = "500" loopEnd = "20084" loNote="60" hiNote="107" rootNote="89" path="Samples/F5_Normal.wav" length="805888"/>
+    </group>
+    <group name="Fifth 2" groupTuning = "90">
+      <sample loopStart = "500" loopEnd = "20084" loNote="60" hiNote="107" rootNote="89" path="Samples/F5_Normal.wav" length="805888"/>
+    </group>
+    <group name="Octave 4" groupTuning = "36">
+      <sample loopStart = "500" loopEnd = "20084" loNote="60" hiNote="107" rootNote="89" path="Samples/F5_Normal.wav" length="805888"/>
+    </group>
+    <group name="Third" groupTuning = "36">
+      <sample tuning = "4"  loopStart = "500" loopEnd = "20084" loNote="60" hiNote= "107" rootNote="89" path="Samples/F5_Normal.wav" length="805888"/>
+    </group>
+    <group name="Fifth 3" groupTuning = "43">
+      <sample tuning = "7"  loopStart = "500" loopEnd = "20084" loNote="60" hiNote= "107" rootNote="89" path="Samples/F5_Normal.wav" length="805888"/>
+    </group>
+    <group name="Octave 5" groupTuning = "48">
+      <sample tuning = "12"  loopStart = "500" loopEnd = "20084" loNote="60" hiNote="107" rootNote="89" path="Samples/F5_Normal.wav" length="805888"/>
+    </group>
+  </groups>
+  <effects>
+    <effect type="chorus"  mix="0.0" modDepth="0.05" modRate="6"/>
+    <effect type="convolution" mix="0.5" irFile="Samples/Bathroom.wav"/>
+  </effects>
+  <midi>
+    <!-- This causes MIDI CC 1 to control the 4th knob (cutoff) -->
+    <cc number="1">
+      <binding level="ui" type="control" parameter="VALUE" position="4" 
+               translation="linear" translationOutputMin="0" 
+               translationOutputMax="1" />
+    </cc>
+  </midi>
+</DecentSampler>
