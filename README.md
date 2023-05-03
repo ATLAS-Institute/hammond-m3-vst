@@ -15,4 +15,4 @@ You will see all of the available downloading options for Decent Sampler, press 
 
 Once downloaded, install the decent sampler pkg file and open decentsample in the standalone application or vst in your DAW.
 
-You should then be able to open the ORGAN-M3.dsbundle file in decent sampler and start playing!
+You should then be able to open the M3_ORGAN_SOUNDLAB_V3.dsbundle file in decent sampler and start playing!
